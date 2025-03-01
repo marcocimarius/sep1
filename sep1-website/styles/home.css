@@ -1,0 +1,39 @@
+.square {
+    width: 300px;
+    height: 300px;
+}
+
+.absolute-image {
+    top: 7%;
+    left: 7%;
+}
+
+.absolute-image-2 {
+    top: 7%;
+    right: 7%;
+}
+
+.absolute-image img {
+    width: auto;
+    height: 100%;
+}
+
+.absolute-image-2 img {
+    width: auto;
+    height: 100%;
+}
+
+@media (max-width: 575px) {
+    #row1-column1,
+    #row1-column2-column2,
+    #row2-column2,
+    #row2-column2-column2 
+    {
+        display: none;
+    }
+
+    #row1-column2-column1,
+    #row2-column2-column1 {
+        display: flex;
+    }   
+}

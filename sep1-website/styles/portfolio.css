@@ -1,0 +1,36 @@
+#carousel1 img {
+    height: 250px;
+}
+
+#carousel2 img {
+    height: 250px;
+}
+
+#carousel3 img {
+    height: 250px;
+}
+
+#carousel4 img {
+    height: 250px;
+}
+
+@media (max-width: 575px) {
+    .flex-xs-column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-xs-center {
+        text-align: center;
+    }
+
+    .order-xs-2 {
+        display: flex;
+        order: 2;
+    }
+
+    .order-xs-1 {
+        display: flex;
+        order: 1;
+    }
+}

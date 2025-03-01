@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<projects>
+    <project type="commercial">
+        <customer>
+            <customerName value="Bob"/>
+            <customerPhoneNumber value="+37369456789"/>
+            <customerEmail value="bob@gmail.com"/>
+            <customerAddress value="Chisinau, Moldova"/>
+        </customer>
+        <resources>
+            <hoursUsed value="300"/>
+            <hoursNeeded value="1000"/>
+            <materialExpensesUsed value="3000.0"/>
+            <materialExpensesNeeded value="10000.0"/>
+        </resources>
+        <startDate>
+            <startDateDay value="22"/>
+            <startDateMonth value="11"/>
+            <startDateYear value="2023"/>
+        </startDate>
+        <expectedEndDate>
+            <expectedEndDateDay value="15"/>
+            <expectedEndDateMonth value="12"/>
+            <expectedEndDateYear value="2023"/>
+        </expectedEndDate>
+        <endDate>
+            <endDateDay value="10"/>
+            <endDateMonth value="12"/>
+            <endDateYear value="2023"/>
+        </endDate>
+        <details>
+            <id value="031acc62-3eef-4630-9373-339f54a87484"/>
+            <name value="Great Salling"/>
+            <timeline value="3 months"/>
+            <budget value="200000.0"/>
+            <size value="450.0"/>
+            <numberOfFloors value="2"/>
+            <intendedUseOfBuilding value="Shopping Mall"/>
+        </details>
+    </project>
+    <project type="road">
+        <customer>
+            <customerName value="Bobby"/>
+            <customerPhoneNumber value="+37369456789"/>
+            <customerEmail value="bobby@gmail.com"/>
+            <customerAddress value="Sofia, Bulgaria"/>
+        </customer>
+        <resources>
+            <hoursUsed value="300"/>
+            <hoursNeeded value="1030"/>
+            <materialExpensesUsed value="3000.0"/>
+            <materialExpensesNeeded value="10000.0"/>
+        </resources>
+        <startDate>
+            <startDateDay value="22"/>
+            <startDateMonth value="12"/>
+            <startDateYear value="2023"/>
+        </startDate>
+        <expectedEndDate>
+            <expectedEndDateDay value="15"/>
+            <expectedEndDateMonth value="12"/>
+            <expectedEndDateYear value="2023"/>
+        </expectedEndDate>
+        <endDate>
+            <endDateDay value="11"/>
+            <endDateMonth value="12"/>
+            <endDateYear value="2023"/>
+        </endDate>
+        <details>
+            <id value="5824f0a2-405e-4602-afcb-58f2631a2c78"/>
+            <name value="Great Roady"/>
+            <timeline value="4 months"/>
+            <budget value="400000.0"/>
+            <length value="22300.0"/>
+            <width value="51.0"/>
+            <numberOfBridges value="5"/>
+            <numberOfTunnels value="2"/>
+            <anyEnvironmentalOrGeographicalChallenges value="The earth is prone to landslide"/>
+        </details>
+    </project>
+    <project type="residential">
+        <customer>
+            <customerName value="Bobsonn"/>
+            <customerPhoneNumber value="+37369456789"/>
+            <customerEmail value="bob@gmail.com"/>
+            <customerAddress value="Chisinau, Moldova"/>
+        </customer>
+        <resources>
+            <hoursUsed value="300"/>
+            <hoursNeeded value="1000"/>
+            <materialExpensesUsed value="3000.0"/>
+            <materialExpensesNeeded value="10000.0"/>
+        </resources>
+        <startDate>
+            <startDateDay value="22"/>
+            <startDateMonth value="11"/>
+            <startDateYear value="2023"/>
+        </startDate>
+        <expectedEndDate>
+            <expectedEndDateDay value="15"/>
+            <expectedEndDateMonth value="12"/>
+            <expectedEndDateYear value="2023"/>
+        </expectedEndDate>
+        <endDate>
+            <endDateDay value="10"/>
+            <endDateMonth value="12"/>
+            <endDateYear value="2023"/>
+        </endDate>
+        <details>
+            <id value="9708c218-47e7-4f90-a87f-63dc1ac79af0"/>
+            <name value="Great House"/>
+            <timeline value="3 months"/>
+            <budget value="300000.0"/>
+            <size value="450.0"/>
+            <numberOfKitchens value="1"/>
+            <numberOfBathrooms value="2"/>
+            <numberOfRoomsWithPlumbing value="2"/>
+            <isRenovated value="true"/>
+        </details>
+    </project>
+    <project type="residential">
+        <customer>
+            <customerName value="Bobsonn"/>
+            <customerPhoneNumber value="+37369456789"/>
+            <customerEmail value="bob@gmail.com"/>
+            <customerAddress value="Chisinau, Moldova"/>
+        </customer>
+        <resources>
+            <hoursUsed value="300"/>
+            <hoursNeeded value="1000"/>
+            <materialExpensesUsed value="3000.0"/>
+            <materialExpensesNeeded value="10000.0"/>
+        </resources>
+        <startDate>
+            <startDateDay value="22"/>
+            <startDateMonth value="11"/>
+            <startDateYear value="2023"/>
+        </startDate>
+        <expectedEndDate>
+            <expectedEndDateDay value="15"/>
+            <expectedEndDateMonth value="12"/>
+            <expectedEndDateYear value="2023"/>
+        </expectedEndDate>
+        <endDate>
+            <endDateDay value="dnf"/>
+            <endDateMonth value="dnf"/>
+            <endDateYear value="dnf"/>
+        </endDate>
+        <details>
+            <id value="9708c218-47e7-4f90-a87f-63dc1ac79af0"/>
+            <name value="Great House"/>
+            <timeline value="3 months"/>
+            <budget value="300000.0"/>
+            <size value="450.0"/>
+            <numberOfKitchens value="1"/>
+            <numberOfBathrooms value="2"/>
+            <numberOfRoomsWithPlumbing value="2"/>
+            <isRenovated value="true"/>
+        </details>
+    </project>
+    <project type="industrial">
+        <customer>
+            <customerName value="Bobby Smithy"/>
+            <customerPhoneNumber value="+4555555555"/>
+            <customerEmail value="new@new.com"/>
+            <customerAddress value="Plads 5, Horsens"/>
+        </customer>
+        <resources>
+            <hoursUsed value="0"/>
+            <hoursNeeded value="12"/>
+            <materialExpensesUsed value="0.0"/>
+            <materialExpensesNeeded value="12400.0"/>
+        </resources>
+        <startDate>
+            <startDateDay value="10"/>
+            <startDateMonth value="12"/>
+            <startDateYear value="2023"/>
+        </startDate>
+        <expectedEndDate>
+            <expectedEndDateDay value="10"/>
+            <expectedEndDateMonth value="12"/>
+            <expectedEndDateYear value="2023"/>
+        </expectedEndDate>
+        <endDate>
+            <endDateDay value="10"/>
+            <endDateMonth value="12"/>
+            <endDateYear value="2023"/>
+        </endDate>
+        <details>
+            <id value="db226817-df98-4af8-ae5d-dac56a7c92dd"/>
+            <name value="Projects"/>
+            <timeline value="30 months"/>
+            <budget value="10000.0"/>
+            <size value="650.0"/>
+            <typeOfIndustrialFacility value="Warehouse"/>
+        </details>
+    </project>
+</projects>

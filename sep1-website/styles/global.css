@@ -1,0 +1,97 @@
+:root{
+    --primary-color: #DC7B58;   
+}
+
+html{
+    overflow-x: hidden;
+}
+
+body{
+    overflow-x: hidden;
+}
+/* Styles for the navigation */
+.logo-text{
+    font-size: 2.5rem;
+    font-weight: 500     ;
+    /* Add font border */
+    color: #fff;
+     text-shadow: -1px -1px 0 var(--primary-color), 1px -1px 0 var(--primary-color), -1px 1px 0 var(--primary-color), 1px 1px 0 var(--primary-color);
+}
+
+.nav-item{
+    position: relative;
+}
+
+.nav-item::after{
+    content: '';
+    display: none;
+    position: absolute;
+    top: calc(100%);
+    width: 70%;
+    height: 4px;
+    background-color: #cfcfcf;
+    border-radius: 25px;
+}
+
+.nav-item.active::after{
+    background-color: var(--primary-color);
+    width: 80%;
+}
+
+.nav-item:hover::after{
+    width: 80%;
+    background: var(--primary-color);
+    transition: 0.3s;
+}
+
+@media (min-width: 768px) { 
+    .nav-item::after{
+        display: block;
+    }
+ }
+
+.ring-container {
+    position: relative;
+    width:25px;
+    height:25px;
+}
+
+.circle {
+    width: 15px;
+    height: 15px;
+    background-color: #ff2d2d;
+    border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ringring {
+    border: 3px solid #ff4b4b;
+    border-radius: 30px;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: pulsate 1s ease-out;
+    animation-iteration-count: infinite;
+    opacity: 0.0
+}
+
+@keyframes pulsate {
+    0% {transform: translate(-50%, -50%) scale(0.1, 0.1); opacity: 0.0;}
+    50% {transform: translate(-50%, -50%); opacity: 1.0;}
+    100% {transform:translate(-50%, -50%), scale(1.2, 1.2); opacity: 0.0;}
+}
+
+.decoration{
+    width: 100px;
+    height: 50px;
+    top: -5%;
+    left: 96%;
+    position: absolute;
+    background: var(--primary-colors);
+}
